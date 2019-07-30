@@ -5,7 +5,6 @@ function loaderA() {
 }
 function removeElement(overf) {
     // Removes an element from the document
-    var element = document.getElementById(overf);
+    var element = document.getElementById('overf');
     element.parentNode.removeChild(element);
 }
-function removeElement(overf)
