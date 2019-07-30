@@ -15,15 +15,24 @@
   #background-main h2 {
   	color: #d1d2d3;
   }
-  #background-main
-
+  #images .col-md-6.align-self-center.padding-images {
+    padding: 50px 20px;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktop-remove {
+    display: initial;
+  }
 }
 
 @media (max-width: 770px) {
   #quote .col-md-4 {
   	padding-bottom: 15px;
   }
-
+  #quote h3 {
+    width: initial;
+  }
 }
 
 @media(min-width: 990px){

@@ -4,7 +4,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" type="image/png" href="assets/img/fav-icon.png">
+	<!-- <link rel="icon" type="image/png" href="assets/img/fav-icon.png"> -->
 	
 	<title>Olive</title>
 
@@ -24,10 +24,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Hind|Montserrat:300,400,500,500i,600,700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-
+<body onload="setTimeout(loaderA, 3000)" id="overf">
+		 <div id="loader" class="loader d-flex align-items-center">
+			<div class="lds-ellipsis mx-auto d-block"><div></div><div></div><div></div><div></div></div>
+		</div> 
 	<div id="background-main">
-
+			
 		<!-- Header -->
 
 		<div class="container">
@@ -37,11 +39,12 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class=" main-btn" href="#">Reserve</a>
+							
 						</li>
 					</ul>
 				</div>
 			</nav>
-
+			
 			<!-- End Header -->
 
 			<!-- Main Content -->
@@ -51,14 +54,15 @@
 					<div class="col-md-6 center-v">
 						<h1>DOLOR SIT <span>AMET</span></h1>
 						<h2 class="pb-5 mb-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</h2>
-						<button class="main-button">lorem</button>
+						<button class="main-button mr-2">lorem</button>
 						<button class="secondary-button">vero eos</button>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid hidden-m social-media-background pt-2 pb-2">
+		
+		<!-- <div class="container-fluid hidden-m social-media-background pt-2 pb-2">
 			<div class="social-media d-flex justify-content-between container align-items-center">
 				<div class="">
 					<img src="assets/img/facebook-icon.svg">
@@ -72,9 +76,9 @@
 					<h3 class="pl-2">99 99999-9999</h3>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
-	
+
 	<!-- End Main Content -->
 
 	<!-- Quote -->
@@ -82,7 +86,7 @@
 	<section id="quote" class="pt-5 pb-5">
 		<div class="container">
 			<h2>magna aliquyam erat</h2>
-			<h3 class="mx-auto">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At</h3>
+			<h3 class="mx-auto">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h3>
 			<div class="row pt-5 mx-auto">
 				<div class="col-md-4">
 					<div class="card shadow-sm">
@@ -94,7 +98,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="card">
+					<div class="card shadow-sm">
 						<img src="assets/img/quote-2.png" class="quote-img pt-4 pb-4 mx-auto" alt="...">
 						<div class="card-body">
 							<h5 class="card-title border-top pt-3">Dolores Etea</h5>
@@ -103,7 +107,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="card">
+					<div class="card shadow-sm">
 						<img src="assets/img/quote-3.png" class="quote-img pt-4 pb-4 mx-auto" alt="...">
 						<div class="card-body">
 							<h5 class="card-title border-top pt-3">Magna Aliq</h5>
@@ -124,19 +128,22 @@
 			<div class="col-md-6 remove-pad">
 				<img class="img-fluid" src="assets/img/photo-1.png">
 			</div>
-			<div class="col-md-6 align-self-center">
+			<div class="col-md-6 align-self-center padding-images">
 				<h2>diam nonumy <span>eirmod<span></h2>
 					<p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-					<button class="tertiary-button">sadipscing</button>
+					<button class="tertiary-button mt-4">sadipscing</button>
 				</div>
 			</div>
 			<div class="row align-self-center">
-				<div class="col-md-6 align-self-center text-right">
+					<div class="col-md-6 remove-pad desktop-remove">
+							<img class="img-fluid" src="assets/img/photo-2.png">
+						</div>
+				<div class="col-md-6 align-self-center text-right padding-images">
 					<h2>diam nonumy <span>eirmod</span></h2>
 					<p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-					<button class="tertiary-button">sadipscing</button>
+					<button class="tertiary-button mt-4">sadipscing</button>
 				</div>
-				<div class="col-md-6 remove-pad">
+				<div class="col-md-6 remove-pad mobile-img">
 					<img class="img-fluid" src="assets/img/photo-2.png">
 				</div>
 			</div>
@@ -146,32 +153,52 @@
 
 		<!-- Menu -->
 
-		<section id="menu" class="container-fluid">
-			<h3>Menu</h3>
+		<section id="menu" class="container-fluid pb-4">
+			<div class="row pt-4 pb-4">
+			<h3 class="mx-auto pt-3 pb-3 pr-5 pl-5">Menu</h3>
+		</div>
 			<div class="row">
 				<div class="col-md-6">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<h4>Lorem ipsum</h4>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<h4>Lorem ipsum</h4>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<p>dolor sit</p>
-					<p>16,99</p>
-					<h4>Lorem ipsum</h4>
-					<p>dolor sit</p>
-					<p>16,99</p>
+					<div class="d-flex justify-content-between">
 					<p>dolor sit</p>
 					<p>16,99</p>
 				</div>
+				<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				
+					<h4>Lorem ipsum</h4>
+					<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+					<h4>Lorem ipsum</h4>
+					<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				<div class="d-flex justify-content-between">
+					<p>dolor sit</p>
+					<p>16,99</p>
+				</div>
+				</div>
+				<div class="col-md-2"></div>
 			</div>
 		</section>
 		
@@ -180,7 +207,9 @@
 		<!-- Adress -->
 
 		<section id="adress" class="container-fluid">
-			<h3 class="text-center">Adress</h3>
+			<div class="row pt-4 pb-4">
+			<h3 class="mx-auto pt-3 pb-3 pr-5 pl-5">Adress</h3>
+		</div>
 			<div class="row ">
 				<div class="col-md-6 text-center">
 					<img class="map img-fluid" src="assets/img/map.png">
@@ -192,7 +221,7 @@
 					<h4>opening</h4>
 					<p>12:00 - 19:00  Monday/Saturday</p>
 					<p>12:00 - 15:00  Sunday</p>
-					<h4>Telephone</h4>
+					<h4>telephone</h4>
 					<p>(99) 99999-9999</p>
 					<p>(99) 99999-9999</p>
 				</div>
@@ -207,37 +236,55 @@
 		<!-- Footer -->
 
 		<footer class="container-fluid">
-			<div class="row d-flex">
+			<div class="container">
+			<div class="row d-flex pt-5 pb-5">
+				<div class="col-md-3">
 				<ul>
-					<li>site map</li>
+					<li class="title-list-footer pb-3">site map</li>
+					<div class="list-item">
 					<li>lorem</li>
 					<li>ipsum</li>
 					<li>dolor sit</li>
 					<li>amet</li>
-				</ul>
-				<ul>
-					<li>lorem ipsum</li>
-					<li>lorem</li>
-					<li>ipsum</li>
-					<li>dolor sit</li>
-					<li>amet</li>
-				</ul>
-				<ul>
-					<li>lorem ipsum</li>
-					<li>lorem</li>
-					<li>ipsum</li>
-					<li>dolor sit</li>
-					<li>amet</li>
-				</ul>
-				<ul>
-					<li>social media</li>
-					<li><img src="assets/img/facebook-icon.svg"><img src="assets/img/instagram-icon.svg"></li>
-					<li><img src="assets/img/whatsapp-icon.svg">99 99999-9999</li>
-					<li>Lorem ipsum dolor sit amet, trim</li>
-					<li>Lorem ipsum</li>
+				</div>
 				</ul>
 			</div>
-			<p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+			<div class="col-md-3">
+				<ul>
+					<li class="title-list-footer pb-3">lorem ipsum</li>
+					<div class="list-item">
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor sit</li>
+					<li>amet</li>
+				</div>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<!-- <ul>
+					<li>lorem ipsum</li>
+					<li>lorem</li>
+					<li>ipsum</li>
+					<li>dolor sit</li>
+					<li>amet</li>
+				</ul> -->
+			</div>
+			<div class="col-md-4 text-right padding-social">
+				<ul>
+					<li class="title-list-footer pb-3">social media</li>
+					<div class="list-item">
+					<li class="border-bottom pb-2 mb-2"><img class="pr-2" src="assets/img/facebook-icon.svg"><img class="pl-2" src="assets/img/instagram-icon.svg"></li>
+					<li><img class="pr-2 whatsapp-ic" src="assets/img/whatsapp-icon.svg">99 99999-9999</li>
+					<div class="data-adress">
+					<li>Lorem ipsum dolor sit amet, trim</li>
+					<li>Lorem ipsum</li>
+				</div>
+					</div>
+				</ul>
+			</div>
+			</div>
+		</div>
+			<p class="text-center pt-3 pb-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
 		</footer>
 
 		<!-- End Footer -->
