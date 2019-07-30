@@ -24,6 +24,9 @@
   .desktop-remove {
     display: initial;
   }
+  #loader {
+    display: none!important;
+  }
 }
 
 @media (max-width: 770px) {
