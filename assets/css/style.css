@@ -118,6 +118,8 @@ body {
 	font-size: 13px;
 	letter-spacing: 1.5px;
 	transition: all 200ms ease-in;
+	-webkit-transition:all 200ms ease-in;
+	-o-transition:all 200ms ease-in;
 }
 .main-btn:hover {
 	color: var(--second-color);
@@ -135,6 +137,8 @@ body {
 	font-weight: 600;
 	padding: 10px 35px;
 	transition: all 200ms ease-in;
+	-webkit-transition:all 200ms ease-in;
+	-o-transition:all 200ms ease-in;
 }
 .main-button:hover {
 	background-color: #c4b700;
@@ -149,6 +153,8 @@ body {
 	background-color: transparent;
 	padding: 10px 35px;
 	transition: all 200ms ease-in;
+	-webkit-transition:all 200ms ease-in;
+	-o-transition:all 200ms ease-in;
 }
 .secondary-button:hover {
 	color: var(--second-color);
@@ -263,6 +269,8 @@ h1 span {
     background-color: transparent;
 	padding: 10px 35px;
 	transition: all 200ms ease-in;
+	-webkit-transition:all 200ms ease-in;
+	-o-transition:all 200ms ease-in;
 }
 .tertiary-button:hover {
 	color: #fff;
@@ -273,6 +281,8 @@ h1 span {
     background-color: #6B6B6B;
 	padding: 10px 35px;
 	transition-delay: 0ms;
+	-webkit-transition:all 200ms ease-in;
+	-o-transition:all 200ms ease-in;
 	
 }
 #images h2 span {
