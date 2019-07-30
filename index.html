@@ -22,7 +22,12 @@
 	
 	<!-- Montserrat and Hind Font -->
 	<link href="https://fonts.googleapis.com/css?family=Hind|Montserrat:300,400,500,500i,600,700&display=swap" rel="stylesheet">
-
+<script>function loaderA() {
+		document.getElementById('loader').style.zIndex = '-5' 
+		document.getElementById('overf').style.overflow = 'initial'
+		document.getElementById('background-main').style.zIndex="4"
+	}
+	</script>
 </head>
 <body onload="setTimeout(loaderA, 3000)" id="overf">
 		 <div id="loader" class="loader d-flex align-items-center">
