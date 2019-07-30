@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 body {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
  #loader {
 	position: absolute;
