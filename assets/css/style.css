@@ -23,7 +23,7 @@ body {
 	height: 100%;
 	animation: fadeInFromNone 2s ease-out;
 	
-	animation-delay: 2s;
+	animation-delay: 3s;
 	animation-iteration-count: 1;
 } 
 @keyframes fadeInFromNone {
