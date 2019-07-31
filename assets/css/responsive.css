@@ -47,6 +47,9 @@ overflow: hidden;
   #loader {
     display: none!important;
   }
+  .center-v {
+    margin-top: 60px;
+}
 }
 
 @media (max-width: 770px) {
@@ -55,6 +58,20 @@ overflow: hidden;
   }
   #quote h3 {
     width: initial;
+  }
+  #adress .padding-m {
+    padding-top: 30px;
+    text-align: center;
+  }
+  #adress .pad-for-mb {
+    padding-bottom: 30px;
+  }
+  #adress p {
+    margin: 0;
+  }
+  footer .padding-social {
+    
+    text-align: left;
   }
 }
 

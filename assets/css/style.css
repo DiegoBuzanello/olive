@@ -323,9 +323,13 @@ footer img {
 	width: 40px;
 	height: 40px;
 }
-
+#menu h4 {
+	font-weight: 600;
+	color: #FFEE00;
+}
 footer .padding-social {
 	padding-right: 80px;
+	text-align: right;
 }
 footer .whatsapp-ic {
 	width: 25px;
