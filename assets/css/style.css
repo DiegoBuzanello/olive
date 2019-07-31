@@ -327,6 +327,10 @@ footer img {
 	font-weight: 600;
 	color: #FFEE00;
 }
+#menu p {
+	/* font-weight: 600;
+	color: #FFEE00; */
+}
 footer .padding-social {
 	padding-right: 80px;
 	text-align: right;

@@ -44,9 +44,9 @@ overflow: hidden;
   .desktop-remove {
     display: initial;
   }
-  #loader {
+  /* #loader {
     display: none!important;
-  }
+  } */
   .center-v {
     margin-top: 60px;
 }
