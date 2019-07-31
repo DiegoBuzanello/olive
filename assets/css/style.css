@@ -218,7 +218,7 @@ h1 span {
 	width: auto;
 }
 #quote {
-	background-image: url('../img/background-quote.png');
+	background-image: url('../img/background-quote.jpg');
 }
 #quote h2 {
 	font-size: 37px;
@@ -289,7 +289,7 @@ h1 span {
 	color: #FFEE00;
 }
 #menu {
-	background-image: url('../img/background-menu.png');
+	background-image: url('../img/background-menu.jpg');
 	color: #fff;
 }
 
