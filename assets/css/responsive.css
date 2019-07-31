@@ -17,7 +17,7 @@ overflow: scroll;
   /* background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
   background: -o-linear-gradient(top, white, black);
   background: linear-gradient(to bottom, white, black); */
-  background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)),url('../img/background-img.png');
+  background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)),url('../img/background-img-m.jpg');
 background-position: right center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
