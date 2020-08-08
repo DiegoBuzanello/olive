@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Olive" src=".github/olive.png" width="100%">
+  <img alt="Olive" src=".github/olive.png" width="50%">
 </p>
 
 ## Projeto
